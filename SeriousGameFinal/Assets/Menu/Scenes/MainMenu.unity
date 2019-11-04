@@ -364,6 +364,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1792696701}
+    - target: {fileID: 8158843898372581811, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: newGameSceneName
+      value: MainGame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8f9b5133a21449499a15f2c2f8f4adc, type: 3}
 --- !u!1001 &8665421810399487930
