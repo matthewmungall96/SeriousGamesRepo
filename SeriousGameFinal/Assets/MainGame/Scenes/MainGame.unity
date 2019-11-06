@@ -581,7 +581,23 @@ PrefabInstance:
         type: 3}
       propertyPath: initialDatabase
       value: 
-      objectReference: {fileID: 11400000, guid: 522adc19a75f55e47a95464e82a1e8b4,
+      objectReference: {fileID: 11400000, guid: 2affdfe2417fd684ea8849c00746114c,
+        type: 2}
+    - target: {fileID: 114937748117785014, guid: d4353500a4689e444a5a0ed100a259e5,
+        type: 3}
+      propertyPath: displaySettings.dialogueUI
+      value: 
+      objectReference: {fileID: 196456, guid: d1b7749dcc0beaf4f8d455f24cc4f0f7, type: 3}
+    - target: {fileID: 114499580892680844, guid: d4353500a4689e444a5a0ed100a259e5,
+        type: 3}
+      propertyPath: startMessage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114499580892680844, guid: d4353500a4689e444a5a0ed100a259e5,
+        type: 3}
+      propertyPath: guiSkin
+      value: 
+      objectReference: {fileID: 11400000, guid: a2b5d5b41f3b347448a9c7387fbce020,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4353500a4689e444a5a0ed100a259e5, type: 3}
