@@ -1135,7 +1135,7 @@ MonoBehaviour:
     - id: 6
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -1159,7 +1159,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Introduction Quiz
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1542,7 +1542,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: B. Return 0.
+        value: B. Hello World 0.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2230,7 +2230,7 @@ MonoBehaviour:
     - id: 21
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2254,7 +2254,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Basic Functions Quiz
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2449,7 +2449,7 @@ MonoBehaviour:
     - id: 24
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2473,7 +2473,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Given the code above about arrays, how would you send in the console
+          the Wednesday value?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2564,7 +2565,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: A.
+        value: A. cout(days[2]);
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2631,7 +2632,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: B.
+        value: B. cout << days[2];
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2704,7 +2705,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: C.
+        value: C. cout << days(2);
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2771,7 +2772,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: D.
+        value: D. cout << days.2;
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2814,7 +2815,7 @@ MonoBehaviour:
     - id: 29
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2838,7 +2839,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Explanation: ''days'' is an array object, it stores multiple values
+          in itself ranking them in orders starting from rank 0, again you don''t
+          use parenthesis like a functions but brackets to access a specific box inside
+          that array.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3051,7 +3055,7 @@ MonoBehaviour:
     - id: 32
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3075,7 +3079,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3118,7 +3122,7 @@ MonoBehaviour:
     - id: 33
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3142,7 +3146,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3185,7 +3189,7 @@ MonoBehaviour:
     - id: 34
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3209,7 +3213,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3252,7 +3256,7 @@ MonoBehaviour:
     - id: 35
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3276,7 +3280,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3830,7 +3834,7 @@ MonoBehaviour:
     - id: 43
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3854,7 +3858,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Loops Quiz
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4651,7 +4655,7 @@ MonoBehaviour:
     - id: 54
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4675,7 +4679,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4718,7 +4722,7 @@ MonoBehaviour:
     - id: 55
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4742,7 +4746,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4791,7 +4795,7 @@ MonoBehaviour:
     - id: 56
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4815,7 +4819,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4858,7 +4862,7 @@ MonoBehaviour:
     - id: 57
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4882,7 +4886,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5162,7 +5166,7 @@ MonoBehaviour:
     - id: 61
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5186,7 +5190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5229,7 +5233,7 @@ MonoBehaviour:
     - id: 62
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5253,7 +5257,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5296,7 +5300,7 @@ MonoBehaviour:
     - id: 63
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5320,7 +5324,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5369,7 +5373,7 @@ MonoBehaviour:
     - id: 64
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5393,7 +5397,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5941,7 +5945,7 @@ MonoBehaviour:
     - id: 72
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5965,7 +5969,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Function Arguments
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6087,7 +6091,7 @@ MonoBehaviour:
     - id: 74
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6111,7 +6115,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6160,7 +6164,7 @@ MonoBehaviour:
     - id: 75
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6184,7 +6188,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A function that needs to use variables that can be different at each
+          iteration has passed arguments, it is written on the format:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6275,7 +6280,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: A.
+        value: A. type name(argumentType argumentName){code;}
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6348,7 +6353,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: B.
+        value: B. type name{code;}(argumentType argumentName);
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6415,7 +6420,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: C.
+        value: C. name(argumentName);
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6482,7 +6487,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: D.
+        value: D. name type(argumentName argumentType){code;}
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6525,7 +6530,7 @@ MonoBehaviour:
     - id: 80
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6549,7 +6554,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Explanation: In coding, the type of an object always goes before it''s
+          name, be it a function or a variable, if you have a function definition,
+          you add the code after between brackets.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6598,7 +6605,7 @@ MonoBehaviour:
     - id: 81
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6622,7 +6629,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6671,7 +6678,7 @@ MonoBehaviour:
     - id: 82
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6695,7 +6702,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'When you use a function that needs arguments, you need to pass it:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6762,7 +6769,7 @@ MonoBehaviour:
     - id: 83
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6786,7 +6793,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A. the same name of variables only
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6829,7 +6836,7 @@ MonoBehaviour:
     - id: 84
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6853,7 +6860,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: B. the same type and name of variables
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6896,7 +6903,7 @@ MonoBehaviour:
     - id: 85
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6920,7 +6927,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: C.anything as long as the spot is filled
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6963,7 +6970,7 @@ MonoBehaviour:
     - id: 86
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6987,7 +6994,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: D. the same type of variable only
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7036,7 +7043,7 @@ MonoBehaviour:
     - id: 87
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7060,7 +7067,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Explanation: The name given to variables is purely made for you to
+          know what you''re dealing with, you can name a variable how you want, for
+          the computer it''s only a cluster of bits associated to a format. Variable
+          names are only a programmer thing, not a machine thing.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7182,7 +7192,7 @@ MonoBehaviour:
     - id: 89
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7206,7 +7216,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Using a function that has overrides can work as long as:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7273,7 +7283,7 @@ MonoBehaviour:
     - id: 90
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7297,7 +7307,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A. You pass it any of the argument groups one override supports
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7346,7 +7356,7 @@ MonoBehaviour:
     - id: 91
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7370,7 +7380,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: B. You pass it all the arguments it asks in the different overrides
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7413,7 +7423,7 @@ MonoBehaviour:
     - id: 92
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7437,7 +7447,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: C. You pass it one argument that is not in the other overrides
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7480,7 +7490,7 @@ MonoBehaviour:
     - id: 93
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7504,7 +7514,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: D. You pass it any of the values the overrides support
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7547,7 +7557,7 @@ MonoBehaviour:
     - id: 94
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7571,7 +7581,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Explanation: Overrides are made in case you need to change how the
+          code behaves depending on what you give a function, you just use a common
+          name for different functions, so just like variables, overrides are just
+          a common name on different functions. You can consider overridden functions
+          as different so calling one means you have to pass it all its needed arguments.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7613,8 +7627,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2190
-        y: 770
+        x: 1961.0232
+        y: 788.2371
         width: 160
         height: 30
     - id: 95
@@ -7693,7 +7707,7 @@ MonoBehaviour:
     - id: 96
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7717,7 +7731,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'In case you are not sure your program provides one of the arguments
+          you need, you can give the funtion a default value, you should then:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7784,7 +7799,7 @@ MonoBehaviour:
     - id: 97
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7808,7 +7823,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A. Remove the arguments you can give a default value to and make a
+          variable in your code instead
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7851,7 +7867,7 @@ MonoBehaviour:
     - id: 98
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7875,7 +7891,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: B. Never give default values
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7918,7 +7934,7 @@ MonoBehaviour:
     - id: 99
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7942,7 +7958,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: C. Give all your arguments a default value
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7985,7 +8001,7 @@ MonoBehaviour:
     - id: 100
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -8009,7 +8025,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: D. Give only the necessary arguments a default value
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8058,7 +8074,7 @@ MonoBehaviour:
     - id: 101
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -8082,7 +8098,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: In contradiction to what has been said before, you don't need to input
+          all the arguments in a function, the condition for that though is that all
+          the arguments, once in the function code, has a value. You then can tell
+          your program that if it's not passed a value for a variable, it will use
+          a default value instead. All the variables that don't have a default value
+          will have to be passed to the function still.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8496,7 +8517,7 @@ MonoBehaviour:
     - id: 107
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -8520,7 +8541,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (End Test)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8563,7 +8584,7 @@ MonoBehaviour:
     - id: 108
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -8587,7 +8608,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Final Test
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9384,7 +9405,7 @@ MonoBehaviour:
     - id: 119
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9408,7 +9429,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9451,7 +9472,7 @@ MonoBehaviour:
     - id: 120
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9475,7 +9496,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9524,7 +9545,7 @@ MonoBehaviour:
     - id: 121
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9548,7 +9569,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9591,7 +9612,7 @@ MonoBehaviour:
     - id: 122
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9615,7 +9636,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9895,7 +9916,7 @@ MonoBehaviour:
     - id: 126
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9919,7 +9940,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9962,7 +9983,7 @@ MonoBehaviour:
     - id: 127
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9986,7 +10007,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10029,7 +10050,7 @@ MonoBehaviour:
     - id: 129
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10053,7 +10074,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10102,7 +10123,7 @@ MonoBehaviour:
     - id: 130
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10126,7 +10147,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10406,7 +10427,7 @@ MonoBehaviour:
     - id: 134
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10430,7 +10451,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10473,7 +10494,7 @@ MonoBehaviour:
     - id: 135
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10497,7 +10518,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10540,7 +10561,7 @@ MonoBehaviour:
     - id: 136
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10564,7 +10585,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10613,7 +10634,7 @@ MonoBehaviour:
     - id: 137
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10637,7 +10658,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10917,7 +10938,7 @@ MonoBehaviour:
     - id: 141
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10941,7 +10962,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'A. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10984,7 +11005,7 @@ MonoBehaviour:
     - id: 142
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -11008,7 +11029,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'B. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11051,7 +11072,7 @@ MonoBehaviour:
     - id: 143
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -11075,7 +11096,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'C. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11118,7 +11139,7 @@ MonoBehaviour:
     - id: 144
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -11142,7 +11163,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'D. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11766,8 +11787,8 @@ MonoBehaviour:
         y: 1470
         width: 160
         height: 30
-    canvasScrollPosition: {x: 165.76035, y: 224.7776}
-    canvasZoom: 0.6434997
+    canvasScrollPosition: {x: 570.95935, y: 3.426252}
+    canvasZoom: 0.46000004
   syncInfo:
     syncActors: 0
     syncItems: 0
