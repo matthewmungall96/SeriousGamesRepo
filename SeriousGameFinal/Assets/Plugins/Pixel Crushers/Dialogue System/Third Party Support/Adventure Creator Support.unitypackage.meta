@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: f9d255e7931631740807addfe17545fc
-NativeFormatImporter:
+guid: 29400b82342c15b44bebd36e5f253c7a
+labels:
+- Adventure
+- Creator
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
