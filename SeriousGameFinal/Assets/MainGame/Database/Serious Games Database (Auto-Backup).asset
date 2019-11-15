@@ -331,7 +331,21 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-  locations: []
+  locations:
+  - id: 1
+    fields:
+    - title: Name
+      value: Garage
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   variables:
   - id: 2
     fields:
@@ -1988,7 +2002,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: TextInput(Text Field UI,Password,password)
         type: 0
         typeString: 
       conversationID: 1
@@ -12479,7 +12493,7 @@ MonoBehaviour:
     - id: 161
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12503,7 +12517,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12552,7 +12566,7 @@ MonoBehaviour:
     - id: 162
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12576,7 +12590,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12619,7 +12633,7 @@ MonoBehaviour:
     - id: 163
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12643,7 +12657,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12692,7 +12706,7 @@ MonoBehaviour:
     - id: 164
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12716,7 +12730,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12765,7 +12779,7 @@ MonoBehaviour:
     - id: 165
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12789,7 +12803,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12838,7 +12852,7 @@ MonoBehaviour:
     - id: 166
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12862,7 +12876,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12911,7 +12925,7 @@ MonoBehaviour:
     - id: 167
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -12935,7 +12949,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12984,7 +12998,7 @@ MonoBehaviour:
     - id: 168
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13008,7 +13022,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13057,7 +13071,7 @@ MonoBehaviour:
     - id: 169
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13081,7 +13095,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13130,7 +13144,7 @@ MonoBehaviour:
     - id: 170
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13154,7 +13168,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13203,7 +13217,7 @@ MonoBehaviour:
     - id: 171
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13227,7 +13241,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13276,7 +13290,7 @@ MonoBehaviour:
     - id: 172
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13300,7 +13314,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13343,7 +13357,7 @@ MonoBehaviour:
     - id: 173
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13367,7 +13381,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13556,7 +13570,7 @@ MonoBehaviour:
     - id: 176
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13580,7 +13594,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
