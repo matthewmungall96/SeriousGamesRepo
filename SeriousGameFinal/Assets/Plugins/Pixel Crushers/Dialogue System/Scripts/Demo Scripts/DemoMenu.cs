@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using PixelCrushers.DialogueSystem.UnityGUI;
 
 namespace PixelCrushers.DialogueSystem.Demo
@@ -60,29 +61,25 @@ namespace PixelCrushers.DialogueSystem.Demo
 
         private void WindowFunction(int windowID)
         {
-            if (GUI.Button(new Rect(10, 60, windowRect.width - 20, 48), "Quest Log"))
+            if (GUI.Button(new Rect(10, 50, windowRect.width - 20, 48), "Quest Log"))
             {
                 if (closeWhenQuestLogOpen) SetMenuStatus(false);
                 OpenQuestLog();
             }
-            if (GUI.Button(new Rect(10, 110, windowRect.width - 20, 48), "Save Game"))
+            if (GUI.Button(new Rect(10, 100, windowRect.width - 20, 48), "Save Game"))
             {
                 SetMenuStatus(false);
                 SaveGame();
             }
-            if (GUI.Button(new Rect(10, 160, windowRect.width - 20, 48), "Load Game"))
+            if (GUI.Button(new Rect(10, 150, windowRect.width - 20, 48), "Load Game"))
             {
                 SetMenuStatus(false);
                 LoadGame();
             }
-            if (GUI.Button(new Rect(10, 210, windowRect.width - 20, 48), "Clear Saved Game"))
+            if (GUI.Button(new Rect(10, 200, windowRect.width - 20, 48), "Return to Main Menu"))
             {
                 SetMenuStatus(false);
                 ClearSavedGame();
-            }
-            if (GUI.Button(new Rect(10, 260, windowRect.width - 20, 48), "Close Menu"))
-            {
-                SetMenuStatus(false);
             }
         }
 
@@ -177,20 +174,7 @@ namespace PixelCrushers.DialogueSystem.Demo
 
         private void ClearSavedGame()
         {
-            var saveSystem = FindObjectOfType<SaveSystem>();
-            if (saveSystem != null)
-            {
-                if (SaveSystem.HasSavedGameInSlot(1))
-                {
-                    SaveSystem.DeleteSavedGameInSlot(1);
-                }
-            }
-            else if (PlayerPrefs.HasKey("SavedGame"))
-            {
-                PlayerPrefs.DeleteKey("SavedGame");
-                Debug.Log("Cleared saved game data");
-            }
-            DialogueManager.ShowAlert("Saved Game Cleared");
+            SceneManager.LoadScene("MainMenu");
         }
 
     }
