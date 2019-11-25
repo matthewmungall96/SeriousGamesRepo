@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Serious Games Database (Auto-Backup)
   m_EditorClassIdentifier: 
-  version: Serious_Games_V1.0
+  version: Serious_Games_V1.01
   author: Matthew Mungall, Leo Masnada, Scott McKay
   description: Dialogue Database for Serious Games Project
   globalUserScript: 
@@ -831,8 +831,9 @@ MonoBehaviour:
         value: 'Hello and welcome to your new Robocorp terminal! I''m your guide (and
           quizzer) Ceeplus+! Pleased to meet you. With my help, we''ll bring your
           new robotic friend to life! (Note: Robocorp does not recognise that robots
-          can not experience life, only an emulated version of it) So, whenever you''re
-          ready, let''s get started! '
+          can not experience life, only an emulated version of it) Using quizzes related
+          to your knowledge of C++, we''ll use said knowledge to code the functionality
+          for your robotic friend. So, whenever you''re ready, let''s get started! '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -887,7 +888,7 @@ MonoBehaviour:
     - id: 2
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -911,7 +912,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Welcome back! Happy to see you again, I bet you're all excited to see
+          your buddy gain more and more knowledge with your help! When you want to
+          resume your quizzes, let me know and we'll get right to it!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -966,7 +969,7 @@ MonoBehaviour:
     - id: 3
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -990,7 +993,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Halfway through eh! Let's keep going and see what we can do!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1045,7 +1048,7 @@ MonoBehaviour:
     - id: 4
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -1069,7 +1072,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: We're nearly done with your robot, only two more quizzes to go! You
+          know the drill by now, let's finish this!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1814,7 +1818,7 @@ MonoBehaviour:
     - id: 14
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -1838,7 +1842,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: "Explanation: cout<<\u201CHello World\u201D;:  This line tells the
+          compiler to display the message \u201CHello World\u201D on the screen. This
+          line is called a statement in C++. Every statement is meant to perform some
+          task. A semi-colon \u2018;\u2019 is used to end a statement."
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1962,7 +1969,7 @@ MonoBehaviour:
     - id: 16
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -1986,7 +1993,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Please type in "Hello World" below. Doing so will put you on the first
+          steps toward building your robot buddy!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2053,11 +2061,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2126,11 +2134,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 3
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2181,7 +2189,7 @@ MonoBehaviour:
     - id: 19
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2205,7 +2213,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Perfect! Now check out your robot friend, they should be beginning
+          to wake up!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2254,7 +2263,7 @@ MonoBehaviour:
     - id: 20
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2278,7 +2287,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (End Quiz 1)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2396,7 +2405,7 @@ MonoBehaviour:
     - id: 22
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2420,7 +2429,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: "A function is a block of code which only runs when it is called.\r
+          You can pass data, known as parameters, into a function.\r Functions are
+          used to perform certain actions, and they are important for reusing code:
+          Define the code once, and use it many times.\r A notable function is called
+          an array, which can be used to display information specified by the player.
+          \n\r\n"
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2469,7 +2483,7 @@ MonoBehaviour:
     - id: 23
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -2493,7 +2507,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2566,8 +2580,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Given the code above about arrays, how would you send in the console
-          the Wednesday value?
+        value: Given the function description above about arrays, how would you send
+          in the console the Wednesday value?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3537,7 +3551,7 @@ MonoBehaviour:
     - id: 37
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3561,7 +3575,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6166,7 +6180,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Function Arguments
+        value: Function Arguments Quiz
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8877,7 +8891,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Final Test
+        value: Final Quiz
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13430,7 +13444,7 @@ MonoBehaviour:
     - id: 174
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13454,7 +13468,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: So, your robot buddy is functioning! Glad to hear it! You won't need
+          me anymore, I'll be gone soon to help my next friend bring their robot to
+          life. Was a pleasure to meet you, and good luck with your friend!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13640,8 +13656,8 @@ MonoBehaviour:
         y: 1176.3466
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 779.3102}
-    canvasZoom: 0.5799999
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.21999994
   syncInfo:
     syncActors: 0
     syncItems: 0
