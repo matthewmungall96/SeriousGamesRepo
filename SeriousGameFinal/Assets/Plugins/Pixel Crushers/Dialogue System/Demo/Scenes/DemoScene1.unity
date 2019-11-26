@@ -858,6 +858,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4566667436678759868, guid: 53ffd7a3aa62d1c4d8ce0d26a44c914a,
+        type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: c1cc03cd82f6cdb40afbc0575be25564,
+        type: 2}
+    - target: {fileID: 4566667436678759868, guid: 53ffd7a3aa62d1c4d8ce0d26a44c914a,
+        type: 3}
+      propertyPath: conversation
+      value: Terminal
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53ffd7a3aa62d1c4d8ce0d26a44c914a, type: 3}
 --- !u!1001 &7140194724089569030
@@ -927,5 +938,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7101972106290196961, guid: 669abfc6f59d8b94995b7cd0fcf93f85,
+        type: 3}
+      propertyPath: initialDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: c1cc03cd82f6cdb40afbc0575be25564,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 669abfc6f59d8b94995b7cd0fcf93f85, type: 3}
