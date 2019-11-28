@@ -112,6 +112,166 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &945034940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2678388541784688102, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogue Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388541784461510, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388542097361251, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_saveAcrossSceneChanges
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678388542097361250, guid: a29e314ee21dbf64bb5923535304cc98,
+        type: 3}
+      propertyPath: m_saveCurrentScene
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a29e314ee21dbf64bb5923535304cc98, type: 3}
+--- !u!1 &1303605088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8158843898889688117, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8158843897051959789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1303605090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303605088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 4
+  setQuestEntryState: 1
+  questEntryNumber: 1
+  questEntryState: 4
+  luaCode: 'SetQuestState("Interact with the Computer", "success");
+
+    SetQuestState("HE110_W0R1D", "active");
+
+    SetQuestEntryState("HE110_W0R1D", 1, "active")'
+  sequence: 'Fade(out,0.5);
+
+    LoadLevel(MainGame)'
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: 
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  skipIfNoValidEntries: 1
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: PixelCrushers.GameObjectUnityEvent, Assembly-CSharp-firstpass, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 2affdfe2417fd684ea8849c00746114c, type: 2}
 --- !u!82 &1792696701 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 8665421811092211399, guid: 9afdd398c42d79047a78fb2b7cfca274,
@@ -368,6 +528,86 @@ PrefabInstance:
         type: 3}
       propertyPath: newGameSceneName
       value: MainGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0035939936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0018455609
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.005154099
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99997854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.41300002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897180122115, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.59000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897533321516, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897177010827, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: Quiz 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897715072732, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: End Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843897748703370, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: Quiz 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843898570248880, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: Quiz 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843898570248881, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1303605090}
+    - target: {fileID: 8158843898570248881, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843898665098671, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: Quiz 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158843898939389866, guid: d8f9b5133a21449499a15f2c2f8f4adc,
+        type: 3}
+      propertyPath: m_Text
+      value: Quiz 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8f9b5133a21449499a15f2c2f8f4adc, type: 3}

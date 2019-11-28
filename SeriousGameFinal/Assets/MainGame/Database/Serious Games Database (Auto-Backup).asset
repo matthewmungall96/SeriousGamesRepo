@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Serious Games Database (Auto-Backup)
   m_EditorClassIdentifier: 
-  version: Serious_Games_V1.01
+  version: Serious_Games_V1.10
   author: Matthew Mungall, Leo Masnada, Scott McKay
   description: Dialogue Database for Serious Games Project
   globalUserScript: 
@@ -520,7 +520,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 1 Question 1 Correct
       type: 0
       typeString: 
   - id: 1
@@ -548,7 +548,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 2 Question 1 Correct
       type: 0
       typeString: 
   - id: 4
@@ -562,7 +562,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 2 Question 2 Correct
       type: 0
       typeString: 
   - id: 5
@@ -576,7 +576,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: 'Variable to check if the second test has been completed. '
       type: 0
       typeString: 
   - id: 6
@@ -590,7 +590,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 3 Question 1 Correct
       type: 0
       typeString: 
   - id: 7
@@ -604,7 +604,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 3 Question 2 Correct
       type: 0
       typeString: 
   - id: 8
@@ -618,7 +618,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 3 Question 3 Correct
       type: 0
       typeString: 
   - id: 9
@@ -632,7 +632,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: 'Variable to check if the third test has been completed. '
       type: 0
       typeString: 
   - id: 10
@@ -646,7 +646,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 4 Question 1 Correct
       type: 0
       typeString: 
   - id: 11
@@ -660,7 +660,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 4 Question 2 Correct
       type: 0
       typeString: 
   - id: 12
@@ -674,7 +674,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 4 Question 3 Correct
       type: 0
       typeString: 
   - id: 13
@@ -688,7 +688,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 4 Question 4 Correct
       type: 0
       typeString: 
   - id: 14
@@ -702,7 +702,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: 'Variable to check if the fourth test has been completed. '
       type: 0
       typeString: 
   - id: 15
@@ -716,7 +716,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 5 Question 1 Correct
       type: 0
       typeString: 
   - id: 16
@@ -730,7 +730,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 5 Question 2 Correct
       type: 0
       typeString: 
   - id: 17
@@ -744,7 +744,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 5 Question 3 Correct
       type: 0
       typeString: 
   - id: 18
@@ -758,7 +758,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 5 Question 4 Correct
       type: 0
       typeString: 
   - id: 19
@@ -772,7 +772,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: Test 5 Question 5 Correct
       type: 0
       typeString: 
   - id: 20
@@ -786,21 +786,77 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
-      value: 
+      value: 'Variable to check if the fifth test has been completed. '
       type: 0
       typeString: 
   - id: 21
     fields:
     - title: Name
-      value: Test End 1
+      value: HelloWorldPassword
       type: 0
       typeString: 
     - title: Initial Value
-      value: Hello World
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
+      value: Text for the variable relating to the first quiz typing segment.
+      type: 0
+      typeString: 
+  - id: 23
+    fields:
+    - title: Name
+      value: BasicFunctionsPassword
+      type: 0
+      typeString: 
+    - title: Initial Value
       value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Text for the variable relating to the second quiz typing segment.
+      type: 0
+      typeString: 
+  - id: 24
+    fields:
+    - title: Name
+      value: LoopsPassword
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Text for the variable relating to the third quiz typing segment.
+      type: 0
+      typeString: 
+  - id: 25
+    fields:
+    - title: Name
+      value: FunctionArgumentsPassword
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Text for the variable relating to the fourth quiz typing segment.
+      type: 0
+      typeString: 
+  - id: 26
+    fields:
+    - title: Name
+      value: FinalTestPassword
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Text for the variable relating to the fifth quiz typing segment.
       type: 0
       typeString: 
   - id: 22
@@ -814,10 +870,1338 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
-      value: 
+      value: 'Counts the total number of questions the player got wrong. '
       type: 0
       typeString: 
   conversations:
+  - id: 3
+    fields:
+    - title: Title
+      value: Book Shelf
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Actor
+      value: 1
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: Conversant
+      value: 2
+      type: 5
+      typeString: CustomFieldType_Actor
+    overrideSettings:
+      useOverrides: 0
+      overrideSubtitleSettings: 0
+      showNPCSubtitlesDuringLine: 1
+      showNPCSubtitlesWithResponses: 1
+      showPCSubtitlesDuringLine: 0
+      skipPCSubtitleAfterResponseMenu: 0
+      subtitleCharsPerSecond: 30
+      minSubtitleSeconds: 2
+      continueButton: 0
+      overrideSequenceSettings: 0
+      defaultSequence: 
+      defaultPlayerSequence: 
+      defaultResponseMenuSequence: 
+      overrideInputSettings: 0
+      alwaysForceResponseMenu: 1
+      includeInvalidEntries: 0
+      responseTimeout: 0
+    nodeColor: 
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 0
+        destinationConversationID: 3
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 300
+        y: 20
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Please choose an area you would like to revise for..
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Camera(Book Shelf Angle,,1);
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 1
+        destinationConversationID: 3
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 300
+        y: 70
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Introduction
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 2
+        destinationConversationID: 3
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Basic Functions
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 3
+        destinationConversationID: 3
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Loops
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 4
+        destinationConversationID: 3
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 390
+        y: 120
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Function Arguments
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 5
+        destinationConversationID: 3
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 570
+        y: 120
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 30
+        y: 170
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 210
+        y: 170
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 390
+        y: 170
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 570
+        y: 170
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1
+  - id: 4
+    fields:
+    - title: Title
+      value: Garage Door
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Actor
+      value: 1
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: Conversant
+      value: 2
+      type: 5
+      typeString: CustomFieldType_Actor
+    overrideSettings:
+      useOverrides: 0
+      overrideSubtitleSettings: 0
+      showNPCSubtitlesDuringLine: 1
+      showNPCSubtitlesWithResponses: 1
+      showPCSubtitlesDuringLine: 0
+      skipPCSubtitleAfterResponseMenu: 0
+      subtitleCharsPerSecond: 30
+      minSubtitleSeconds: 2
+      continueButton: 0
+      overrideSequenceSettings: 0
+      defaultSequence: 
+      defaultPlayerSequence: 
+      defaultResponseMenuSequence: 
+      overrideInputSettings: 0
+      alwaysForceResponseMenu: 1
+      includeInvalidEntries: 0
+      responseTimeout: 0
+    nodeColor: 
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: None()
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 0
+        destinationConversationID: 4
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 0
+        destinationConversationID: 4
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I should finish my robot before I think about leaving....
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: CurrentQuestState("End the Game") == "unassigned"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 200
+        y: 30
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Would you like to leave the garage? (Doing so will end the game)
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 2
+        destinationConversationID: 4
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 2
+        destinationConversationID: 4
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 19
+        y: 82
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Yes
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 3
+        destinationConversationID: 4
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 19
+        y: 132
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: No
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 206
+        y: 134
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Very well, thank you for playing our game!
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 5
+        destinationConversationID: 4
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 19
+        y: 182
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: New Dialogue Entry
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 19
+        y: 232
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1
   - id: 1
     fields:
     - title: Title
@@ -954,8 +2338,14 @@ MonoBehaviour:
         destinationDialogueID: 174
         isConnector: 0
         priority: 2
+      - originConversationID: 1
+        originDialogueID: 0
+        destinationConversationID: 1
+        destinationDialogueID: 179
+        isConnector: 0
+        priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("Interact with the Computer", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -963,7 +2353,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 20
         width: 160
         height: 30
@@ -1047,8 +2437,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 333.1873
-        y: 71.58667
+        x: 377.14285
+        y: 70
         width: 160
         height: 30
     - id: 2
@@ -1119,7 +2509,7 @@ MonoBehaviour:
         destinationDialogueID: 157
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("Complete the "Loops" Quiz") == "active")
+      conditionsString: CurrentQuestState("HE110_W0R1D") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1128,8 +2518,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1000.3137
-        y: 55.614136
+        x: 891.4286
+        y: 70
         width: 160
         height: 30
     - id: 3
@@ -1198,7 +2588,7 @@ MonoBehaviour:
         destinationDialogueID: 158
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Complete the "Loops" Quiz") == "active"
+      conditionsString: CurrentQuestState("Basic Function") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1207,8 +2597,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1742.4674
-        y: 68.29085
+        x: 1405.7142
+        y: 70
         width: 160
         height: 30
     - id: 4
@@ -1278,8 +2668,7 @@ MonoBehaviour:
         destinationDialogueID: 159
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Complete the "Function Arguments" Quiz")
-        == "active"
+      conditionsString: CurrentQuestState("Looper") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1288,8 +2677,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460.3274
-        y: 59.41797
+        x: 1920
+        y: 70
         width: 160
         height: 30
     - id: 5
@@ -1361,6 +2750,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: CurrentQuestState("Complete the "Final Test" Quiz") == "active"
+        and (CurrentQuestState("Three Argument") == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1369,8 +2759,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2942.0732
-        y: 62.945312
+        x: 2434.2856
+        y: 70
         width: 160
         height: 30
     - id: 6
@@ -1519,7 +2909,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
+        x: 480
         y: 170
         width: 160
         height: 30
@@ -1592,7 +2982,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
+        x: 480
         y: 220
         width: 160
         height: 30
@@ -1685,8 +3075,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 270
+        x: 320
+        y: 420
         width: 160
         height: 30
     - id: 10
@@ -1758,7 +3148,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 210
         y: 320
         width: 160
         height: 30
@@ -1831,7 +3221,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
+        x: 390
         y: 320
         width: 160
         height: 30
@@ -1915,7 +3305,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
+        x: 570
         y: 320
         width: 160
         height: 30
@@ -1988,7 +3378,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 570
+        x: 750
         y: 320
         width: 160
         height: 30
@@ -2075,8 +3465,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 290.676
-        y: 374.66205
+        x: 660
+        y: 370
         width: 160
         height: 30
     - id: 15
@@ -2150,7 +3540,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
+        x: 720
         y: 420
         width: 160
         height: 30
@@ -2181,8 +3571,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Please type in "Hello World" below. Doing so will put you on the first
-          steps toward building your robot buddy!
+        value: 'Enter "Hello World" into the terminal: '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2198,7 +3587,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: TextInput(Text Field UI,Password,password)
+        value: TextInput(Text Field UI,Enter Text,HelloWorldPassword)
         type: 0
         typeString: 
       conversationID: 1
@@ -2212,13 +3601,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 16
         destinationConversationID: 1
-        destinationDialogueID: 17
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 16
-        destinationConversationID: 1
-        destinationDialogueID: 18
+        destinationDialogueID: 177
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2230,14 +3613,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 470
+        x: 660
+        y: 620
         width: 160
         height: 30
     - id: 17
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: Correct Text
         type: 0
         typeString: 
       - title: Pictures
@@ -2261,7 +3644,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Correct!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -2294,7 +3677,8 @@ MonoBehaviour:
         destinationDialogueID: 19
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["HelloWorldPassword"] == "Hello World" or (Variable["HelloWorldPassword"]
+        == "hello world")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -2303,75 +3687,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 40
-        y: 520
-        width: 160
-        height: 30
-    - id: 18
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 240
-        y: 520
+        x: 300
+        y: 570
         width: 160
         height: 30
     - id: 19
@@ -2445,7 +3762,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 300
-        y: 570
+        y: 620
         width: 160
         height: 30
     - id: 20
@@ -2513,8 +3830,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 300
-        y: 620
+        x: 480
+        y: 670
         width: 160
         height: 30
     - id: 21
@@ -2664,7 +3981,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1200
         y: 170
         width: 160
         height: 30
@@ -2737,7 +4054,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1200
         y: 220
         width: 160
         height: 30
@@ -2829,7 +4146,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1200
         y: 270
         width: 160
         height: 30
@@ -2902,7 +4219,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 930
         y: 320
         width: 160
         height: 30
@@ -2975,7 +4292,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 930
+        x: 1110
         y: 320
         width: 160
         height: 30
@@ -3048,7 +4365,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1110
+        x: 1290
         y: 320
         width: 160
         height: 30
@@ -3121,7 +4438,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
+        x: 1470
         y: 320
         width: 160
         height: 30
@@ -3197,7 +4514,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1380
         y: 370
         width: 160
         height: 30
@@ -3270,7 +4587,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1120
         y: 420
         width: 160
         height: 30
@@ -3363,7 +4680,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1020
-        y: 470
+        y: 620
         width: 160
         height: 30
     - id: 32
@@ -3435,7 +4752,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 440
+        x: 437.64706
         y: 520
         width: 160
         height: 30
@@ -3508,7 +4825,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 640
+        x: 649.41174
         y: 520
         width: 160
         height: 30
@@ -3581,7 +4898,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 861.1765
         y: 520
         width: 160
         height: 30
@@ -3654,7 +4971,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1040
+        x: 1072.9412
         y: 520
         width: 160
         height: 30
@@ -3732,7 +5049,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1380
         y: 570
         width: 160
         height: 30
@@ -3805,14 +5122,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1020
+        x: 1380
         y: 620
         width: 160
         height: 30
     - id: 38
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3836,7 +5153,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Please enter "cout << functions[3];" below. Doing so will give the
+          robot some new functionality!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3852,7 +5170,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: TextInput(Text Field UI,Enter Text,BasicFunctionsPassword)
         type: 0
         typeString: 
       conversationID: 1
@@ -3866,13 +5184,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 38
         destinationConversationID: 1
-        destinationDialogueID: 39
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 38
-        destinationConversationID: 1
-        destinationDialogueID: 40
+        destinationDialogueID: 180
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3884,14 +5196,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 670
+        x: 891.4286
+        y: 820
         width: 160
         height: 30
     - id: 39
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3903,7 +5215,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -3915,7 +5227,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Correct!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3948,7 +5260,7 @@ MonoBehaviour:
         destinationDialogueID: 41
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["BasicFunctionsPassword"] == "cout << functions[3];"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3957,14 +5269,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 68.57143
-        y: 720
+        x: 345
+        y: 770
         width: 160
         height: 30
     - id: 40
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -3976,7 +5288,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -3988,7 +5300,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Wrong Answer
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4014,8 +5326,14 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 40
+        destinationConversationID: 1
+        destinationDialogueID: 38
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["BasicFunctionsPassword"] ~= "cout << functions[3];"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4024,14 +5342,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 325.7143
-        y: 720
+        x: 795
+        y: 770
         width: 160
         height: 30
     - id: 41
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4055,7 +5373,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Your robot buddy should now be able to do some cool new tricks! Check
+          him out while I get the next quiz ready!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4097,14 +5416,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 770
+        x: 377.14285
+        y: 820
         width: 160
         height: 30
     - id: 42
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4128,7 +5447,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (End Quiz 2)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4156,7 +5475,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestEntryState("Basic Function", 2, "success");
+
+        SetQuestEntryState("Basic Function", 3, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4164,8 +5485,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 820
+        x: 570
+        y: 870
         width: 160
         height: 30
     - id: 43
@@ -4244,7 +5565,7 @@ MonoBehaviour:
     - id: 44
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4268,7 +5589,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A loop is used for executing a block of statements repeatedly until
+          a particular condition is satisfied. For example, when you are displaying
+          number from 1 to 100 you may want set the value of a variable to 1 and display
+          it 100 times, increasing its value by 1 on each loop iteration.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4310,14 +5634,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 170
         width: 160
         height: 30
     - id: 45
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4341,7 +5665,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4383,7 +5707,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 220
         width: 160
         height: 30
@@ -4474,8 +5798,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
-        y: 270
+        x: 1920
+        y: 420
         width: 160
         height: 30
     - id: 47
@@ -4547,7 +5871,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1470
+        x: 1650
         y: 320
         width: 160
         height: 30
@@ -4620,7 +5944,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1650
+        x: 1830
         y: 320
         width: 160
         height: 30
@@ -4693,7 +6017,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
+        x: 2010
         y: 320
         width: 160
         height: 30
@@ -4724,7 +6048,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: D.  do loops
+        value: D. do loops
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4766,14 +6090,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2010
+        x: 2190
         y: 320
         width: 160
         height: 30
     - id: 51
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4797,7 +6121,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: 'Explanation: The then loop is not a part of C++, whereas the other
+          three are. A for-loop (or simply for loop) is a control flow statement for
+          specifying iteration, a while loop is a control flow statement that allows
+          code to be executed repeatedly based on a given Boolean condition and a
+          do while loop is a control flow statement that executes a block of code
+          at least once, and then repeatedly executes the block, or not, depending
+          on a given boolean condition at the end of the block.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4846,7 +6176,7 @@ MonoBehaviour:
     - id: 52
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -4870,7 +6200,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4912,7 +6242,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1520
         y: 420
         width: 160
         height: 30
@@ -5005,7 +6335,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1740
-        y: 470
+        y: 620
         width: 160
         height: 30
     - id: 54
@@ -5077,7 +6407,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1240
+        x: 1284.7059
         y: 520
         width: 160
         height: 30
@@ -5150,7 +6480,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1440
+        x: 1496.4706
         y: 520
         width: 160
         height: 30
@@ -5223,7 +6553,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1640
+        x: 1708.2354
         y: 520
         width: 160
         height: 30
@@ -5296,7 +6626,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1840
+        x: 1920
         y: 520
         width: 160
         height: 30
@@ -5374,14 +6704,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 2100
         y: 570
         width: 160
         height: 30
     - id: 59
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5405,7 +6735,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5447,7 +6777,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 2100
         y: 620
         width: 160
         height: 30
@@ -5539,8 +6869,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 670
+        x: 1405.7142
+        y: 820
         width: 160
         height: 30
     - id: 61
@@ -5612,7 +6942,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 582.8571
+        x: 535.3846
         y: 720
         width: 160
         height: 30
@@ -5685,7 +7015,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 812.3077
         y: 720
         width: 160
         height: 30
@@ -5758,7 +7088,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1097.1428
+        x: 1089.2307
         y: 720
         width: 160
         height: 30
@@ -5831,7 +7161,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1354.2856
+        x: 1366.1538
         y: 720
         width: 160
         height: 30
@@ -5905,14 +7235,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
+        x: 1695
         y: 770
         width: 160
         height: 30
     - id: 66
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -5936,7 +7266,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5978,14 +7308,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
+        x: 1920
         y: 820
         width: 160
         height: 30
     - id: 67
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6009,7 +7339,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Please type in "int i=0; do{cout << "i= " << i <<endl;}while(i < 10);"
+          below. This will update the robot to allow for looped movement!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6039,13 +7370,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 67
         destinationConversationID: 1
-        destinationDialogueID: 68
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 67
-        destinationConversationID: 1
-        destinationDialogueID: 69
+        destinationDialogueID: 181
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6057,7 +7382,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 540
+        x: 1470
         y: 870
         width: 160
         height: 30
@@ -6130,8 +7455,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 920
+        x: 20
+        y: 20
         width: 160
         height: 30
     - id: 69
@@ -6197,8 +7522,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 920
+        x: 20
+        y: 70
         width: 160
         height: 30
     - id: 70
@@ -6270,14 +7595,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 540
-        y: 970
+        x: 20
+        y: 120
         width: 160
         height: 30
     - id: 71
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6301,7 +7626,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: End Test 3
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6337,8 +7662,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 540
-        y: 1020
+        x: 20
+        y: 170
         width: 160
         height: 30
     - id: 72
@@ -6417,7 +7742,7 @@ MonoBehaviour:
     - id: 73
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -6441,7 +7766,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: In C++ programming, you can provide default values for function parameters.
+          The idea behind default argument is simple. If a function is called by passing
+          argument/s, those arguments are used by the function. But if the argument/s
+          are not passed while invoking a function then, the default values are used.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6483,7 +7811,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
+        x: 2640
         y: 170
         width: 160
         height: 30
@@ -6556,7 +7884,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
+        x: 2640
         y: 220
         width: 160
         height: 30
@@ -6648,8 +7976,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
-        y: 270
+        x: 2720
+        y: 420
         width: 160
         height: 30
     - id: 76
@@ -6721,7 +8049,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2190
+        x: 2370
         y: 320
         width: 160
         height: 30
@@ -6794,7 +8122,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
+        x: 2550
         y: 320
         width: 160
         height: 30
@@ -6867,7 +8195,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2550
+        x: 2730
         y: 320
         width: 160
         height: 30
@@ -6940,7 +8268,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2730
+        x: 2910
         y: 320
         width: 160
         height: 30
@@ -7015,8 +8343,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2456.7214
-        y: 376.55737
+        x: 2460
+        y: 370
         width: 160
         height: 30
     - id: 81
@@ -7088,7 +8416,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
+        x: 2320
         y: 420
         width: 160
         height: 30
@@ -7180,7 +8508,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 2460
-        y: 470
+        y: 620
         width: 160
         height: 30
     - id: 83
@@ -7252,7 +8580,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2040
+        x: 2131.7646
         y: 520
         width: 160
         height: 30
@@ -7325,7 +8653,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2240
+        x: 2343.5295
         y: 520
         width: 160
         height: 30
@@ -7398,7 +8726,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2440
+        x: 2555.2942
         y: 520
         width: 160
         height: 30
@@ -7471,7 +8799,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 2767.0588
         y: 520
         width: 160
         height: 30
@@ -7547,14 +8875,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
+        x: 2820
         y: 570
         width: 160
         height: 30
     - id: 88
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -7578,7 +8906,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7620,7 +8948,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460
+        x: 2820
         y: 620
         width: 160
         height: 30
@@ -7711,8 +9039,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2190
-        y: 670
+        x: 2948.5713
+        y: 820
         width: 160
         height: 30
     - id: 90
@@ -7784,7 +9112,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1611.4286
+        x: 1643.0769
         y: 720
         width: 160
         height: 30
@@ -7857,7 +9185,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1868.5714
+        x: 1919.9999
         y: 720
         width: 160
         height: 30
@@ -7930,8 +9258,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2127.6375
-        y: 721.92303
+        x: 2196.923
+        y: 720
         width: 160
         height: 30
     - id: 93
@@ -8003,7 +9331,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2382.8572
+        x: 2473.846
         y: 720
         width: 160
         height: 30
@@ -8080,8 +9408,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1961.0232
-        y: 788.2371
+        x: 2145
+        y: 770
         width: 160
         height: 30
     - id: 95
@@ -8153,7 +9481,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2190
+        x: 2434.2856
         y: 820
         width: 160
         height: 30
@@ -8245,8 +9573,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
-        y: 870
+        x: 570
+        y: 1020
         width: 160
         height: 30
     - id: 97
@@ -8319,7 +9647,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 720
         y: 920
         width: 160
         height: 30
@@ -8392,7 +9720,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1200
+        x: 1120
         y: 920
         width: 160
         height: 30
@@ -8465,7 +9793,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1560
+        x: 1520
         y: 920
         width: 160
         height: 30
@@ -8616,14 +9944,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1470
         y: 970
         width: 160
         height: 30
     - id: 102
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -8647,7 +9975,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -8689,7 +10017,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1470
         y: 1020
         width: 160
         height: 30
@@ -8768,7 +10096,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 1020
         y: 1070
         width: 160
         height: 30
@@ -8841,7 +10169,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 240
+        x: 420
         y: 1120
         width: 160
         height: 30
@@ -8908,7 +10236,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 1020
         y: 1120
         width: 160
         height: 30
@@ -8981,8 +10309,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 838.36066
-        y: 1168.3607
+        x: 720
+        y: 1170
         width: 160
         height: 30
     - id: 107
@@ -9048,7 +10376,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 720
         y: 1220
         width: 160
         height: 30
@@ -9198,7 +10526,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
+        x: 3360
         y: 170
         width: 160
         height: 30
@@ -9271,7 +10599,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
+        x: 3360
         y: 220
         width: 160
         height: 30
@@ -9362,8 +10690,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
-        y: 270
+        x: 3120
+        y: 420
         width: 160
         height: 30
     - id: 112
@@ -9435,7 +10763,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2910
+        x: 3090
         y: 320
         width: 160
         height: 30
@@ -9508,8 +10836,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3090
-        y: 318.36066
+        x: 3270
+        y: 320
         width: 160
         height: 30
     - id: 114
@@ -9581,7 +10909,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3270
+        x: 3450
         y: 320
         width: 160
         height: 30
@@ -9654,7 +10982,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3450
+        x: 3630
         y: 320
         width: 160
         height: 30
@@ -9727,14 +11055,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3189.836
-        y: 379.83606
+        x: 3540
+        y: 370
         width: 160
         height: 30
     - id: 117
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -9758,7 +11086,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9800,7 +11128,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
+        x: 3520
         y: 420
         width: 160
         height: 30
@@ -9893,7 +11221,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 3180
-        y: 470
+        y: 620
         width: 160
         height: 30
     - id: 119
@@ -9965,7 +11293,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2840
+        x: 2978.8235
         y: 520
         width: 160
         height: 30
@@ -10038,7 +11366,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3040
+        x: 3190.5884
         y: 520
         width: 160
         height: 30
@@ -10111,8 +11439,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3241.5625
-        y: 521.5625
+        x: 3402.353
+        y: 520
         width: 160
         height: 30
     - id: 122
@@ -10184,8 +11512,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3432.1875
-        y: 521.56244
+        x: 3614.1177
+        y: 520
         width: 160
         height: 30
     - id: 123
@@ -10257,14 +11585,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
+        x: 3540
         y: 570
         width: 160
         height: 30
     - id: 124
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10288,7 +11616,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10330,7 +11658,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3180
+        x: 3540
         y: 620
         width: 160
         height: 30
@@ -10422,7 +11750,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3090
+        x: 3360
         y: 670
         width: 160
         height: 30
@@ -10495,7 +11823,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 2750.769
         y: 720
         width: 160
         height: 30
@@ -10568,7 +11896,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2897.1428
+        x: 3027.6921
         y: 720
         width: 160
         height: 30
@@ -10641,7 +11969,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3154.2856
+        x: 3304.6152
         y: 720
         width: 160
         height: 30
@@ -10714,7 +12042,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3411.4285
+        x: 3581.5383
         y: 720
         width: 160
         height: 30
@@ -10787,14 +12115,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3090
+        x: 3495
         y: 770
         width: 160
         height: 30
     - id: 132
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -10818,7 +12146,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10860,7 +12188,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3090
+        x: 3462.8572
         y: 820
         width: 160
         height: 30
@@ -10952,8 +12280,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2940
-        y: 870
+        x: 2370
+        y: 1020
         width: 160
         height: 30
     - id: 134
@@ -11025,7 +12353,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2282.985
+        x: 2320
         y: 920
         width: 160
         height: 30
@@ -11098,7 +12426,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 2720
         y: 920
         width: 160
         height: 30
@@ -11172,7 +12500,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3000
+        x: 3120
         y: 920
         width: 160
         height: 30
@@ -11245,7 +12573,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3360
+        x: 3520
         y: 920
         width: 160
         height: 30
@@ -11318,14 +12646,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2976.159
-        y: 981.897
+        x: 3270
+        y: 970
         width: 160
         height: 30
     - id: 139
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -11349,7 +12677,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11391,7 +12719,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2940
+        x: 3270
         y: 1020
         width: 160
         height: 30
@@ -11483,8 +12811,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
-        y: 1070
+        x: 1920
+        y: 1220
         width: 160
         height: 30
     - id: 141
@@ -11556,7 +12884,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1440
+        x: 1620
         y: 1120
         width: 160
         height: 30
@@ -11629,8 +12957,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2042.8572
-        y: 1121.4287
+        x: 2220
+        y: 1120
         width: 160
         height: 30
     - id: 143
@@ -11702,7 +13030,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 2820
         y: 1120
         width: 160
         height: 30
@@ -11775,7 +13103,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3240
+        x: 3420
         y: 1120
         width: 160
         height: 30
@@ -11848,14 +13176,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 3120
         y: 1170
         width: 160
         height: 30
     - id: 147
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -11879,7 +13207,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Continue)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11921,7 +13249,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 3120
         y: 1220
         width: 160
         height: 30
@@ -12000,7 +13328,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 1270
         width: 160
         height: 30
@@ -12073,7 +13401,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
+        x: 1020
         y: 1320
         width: 160
         height: 30
@@ -12140,7 +13468,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
+        x: 2820
         y: 1320
         width: 160
         height: 30
@@ -12213,7 +13541,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 1370
         width: 160
         height: 30
@@ -12286,7 +13614,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 1420
         width: 160
         height: 30
@@ -12353,7 +13681,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 1920
         y: 1470
         width: 160
         height: 30
@@ -12420,8 +13748,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 485.9145
-        y: 125.22302
+        x: 660
+        y: 120
         width: 160
         height: 30
     - id: 157
@@ -12487,8 +13815,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1226.1387
-        y: 118.18184
+        x: 1380
+        y: 120
         width: 160
         height: 30
     - id: 158
@@ -12554,7 +13882,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1931.5935
+        x: 2100
         y: 120
         width: 160
         height: 30
@@ -12621,8 +13949,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2658.8662
-        y: 121.81816
+        x: 2820
+        y: 120
         width: 160
         height: 30
     - id: 160
@@ -12688,8 +14016,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2937.957
-        y: 136.53844
+        x: 3540
+        y: 120
         width: 160
         height: 30
     - id: 161
@@ -12761,8 +14089,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 77.540985
-        y: 379.83606
+        x: 300
+        y: 370
         width: 160
         height: 30
     - id: 162
@@ -12828,8 +14156,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 754.6875
-        y: 373.125
+        x: 1020
+        y: 370
         width: 160
         height: 30
     - id: 163
@@ -12901,7 +14229,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1954.918
+        x: 2100
         y: 370
         width: 160
         height: 30
@@ -12974,8 +14302,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2691.3115
-        y: 383.11478
+        x: 2820
+        y: 370
         width: 160
         height: 30
     - id: 165
@@ -13047,8 +14375,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2978.8523
-        y: 378.19672
+        x: 3180
+        y: 370
         width: 160
         height: 30
     - id: 166
@@ -13120,8 +14448,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 774.375
-        y: 596.5625
+        x: 1020
+        y: 570
         width: 160
         height: 30
     - id: 167
@@ -13193,8 +14521,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1415
-        y: 588.75
+        x: 1740
+        y: 570
         width: 160
         height: 30
     - id: 168
@@ -13266,8 +14594,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2141.563
-        y: 574.6875
+        x: 2460
+        y: 570
         width: 160
         height: 30
     - id: 169
@@ -13339,8 +14667,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2836.875
-        y: 607.5
+        x: 3180
+        y: 570
         width: 160
         height: 30
     - id: 170
@@ -13412,8 +14740,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 822.8125
-        y: 780.9375
+        x: 1245
+        y: 770
         width: 160
         height: 30
     - id: 171
@@ -13485,8 +14813,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2305.808
-        y: 776.5574
+        x: 2595
+        y: 770
         width: 160
         height: 30
     - id: 172
@@ -13552,8 +14880,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2801.9111
-        y: 798.66296
+        x: 3045
+        y: 770
         width: 160
         height: 30
     - id: 173
@@ -13625,8 +14953,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1223.6066
-        y: 979.83606
+        x: 570
+        y: 970
         width: 160
         height: 30
     - id: 174
@@ -13685,7 +15013,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: 
+      conditionsString: CurrentQuestState("Final Test") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -13694,14 +15022,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
+        x: 2948.5713
         y: 70
         width: 160
         height: 30
     - id: 175
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -13725,7 +15053,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Oh no, that's the wrong answer! Please try that one again!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -13767,8 +15095,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2640
-        y: 986.39343
+        x: 2370
+        y: 970
         width: 160
         height: 30
     - id: 176
@@ -13840,13 +15168,383 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1863.7238
-        y: 1176.3466
+        x: 1920
+        y: 1170
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 2.468199}
-    canvasZoom: 0.25525007
-  - id: 2
+    - id: 177
+      fields:
+      - title: Title
+        value: Get Player Input
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: None()
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 177
+        destinationConversationID: 1
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 177
+        destinationConversationID: 1
+        destinationDialogueID: 178
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 225.88235
+        y: 520
+        width: 160
+        height: 30
+    - id: 178
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Incorrect Answer
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 178
+        destinationConversationID: 1
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["HelloWorldPassword"] ~= "Hello World" or (Variable["HelloWorldPassword"]
+        == "hello world")
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 660
+        y: 570
+        width: 160
+        height: 30
+    - id: 179
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (The computer has uploaded functions to your robot....maybe try to
+          test him out)
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: CurrentQuestEntryState("HE110_W0R1D", 3) == "active" or (CurrentQuestEntryState("Basic
+        Function", 3) == "active") or (CurrentQuestEntryState("Looper", 3) == "active")
+        or (CurrentQuestEntryState("Three Argument", 3) == "active") or (CurrentQuestEntryState("Final
+        Test", 3) == "active")
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 3462.8572
+        y: 70
+        width: 160
+        height: 30
+    - id: 180
+      fields:
+      - title: Title
+        value: <Get Player Input>
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 180
+        destinationConversationID: 1
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 180
+        destinationConversationID: 1
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 258.46155
+        y: 720
+        width: 160
+        height: 30
+    - id: 181
+      fields:
+      - title: Title
+        value: <Get Player Input>
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 320
+        y: 920
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 541.6438, y: 360.74957}
+    canvasZoom: 0.46525007
+  - id: 5
     fields:
     - title: Title
       value: Robot
@@ -13934,1181 +15632,13 @@ MonoBehaviour:
         value: None()
         type: 0
         typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 6
-        isConnector: 0
-        priority: 2
-      - originConversationID: 2
-        originDialogueID: 0
-        destinationConversationID: 2
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 570
-        y: 20
-        width: 160
-        height: 30
-    - id: 1
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: -1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: The robot does nothing. Perhaps you should interact with the computer?
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: CurrentQuestEntryState("HE110_W0R1D", 3) == "unassigned"
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 70
-        width: 160
-        height: 30
-    - id: 2
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Hello
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 2
-        destinationConversationID: 2
-        destinationDialogueID: 8
-        isConnector: 0
-        priority: 2
-      conditionsString: CurrentQuestEntryState("HE110_W0R1D", 3) == "active" or (CurrentQuestEntryState("Basic
-        Function", 3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 210
-        y: 70
-        width: 160
-        height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Basic Function
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 3
-        destinationConversationID: 2
-        destinationDialogueID: 9
-        isConnector: 0
-        priority: 2
-      conditionsString: CurrentQuestEntryState("Basic Function", 3) == "active" or
-        (CurrentQuestEntryState("Basic Function", 3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 390
-        y: 70
-        width: 160
-        height: 30
-    - id: 4
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Loops
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 4
-        destinationConversationID: 2
-        destinationDialogueID: 10
-        isConnector: 0
-        priority: 2
-      conditionsString: (CurrentQuestEntryState("Looper", 3) == "active") or (CurrentQuestEntryState("Looper",
-        3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 570
-        y: 70
-        width: 160
-        height: 30
-    - id: 5
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 5
-        destinationConversationID: 2
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      conditionsString: (CurrentQuestEntryState("Three Argument", 3) == "active")
-        or (CurrentQuestEntryState("Three Argument", 3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 750
-        y: 70
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 6
-        destinationConversationID: 2
-        destinationDialogueID: 12
-        isConnector: 0
-        priority: 2
-      conditionsString: (CurrentQuestEntryState("Final Test", 3) == "active") or (CurrentQuestEntryState("Final
-        Test", 3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 930
-        y: 70
-        width: 160
-        height: 30
-    - id: 7
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Exit
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: (CurrentQuestEntryState("HE110_W0R1D", 3) == "active") or
-        (CurrentQuestEntryState("HE110_W0R1D", 3) == "success")
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1110
-        y: 70
-        width: 160
-        height: 30
-    - id: 8
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: 
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 66
-        y: 120
-        width: 160
-        height: 30
-    - id: 9
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 318
-        y: 120
-        width: 160
-        height: 30
-    - id: 10
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 570
-        y: 120
-        width: 160
-        height: 30
-    - id: 11
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 822
-        y: 120
-        width: 160
-        height: 30
-    - id: 12
-      fields:
-      - title: Title
-        value: New Dialogue Entry
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1074
-        y: 120
-        width: 160
-        height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.94000006
-  - id: 3
-    fields:
-    - title: Title
-      value: Book Shelf
-      type: 0
-      typeString: 
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
-    - title: Actor
-      value: 1
-      type: 5
-      typeString: CustomFieldType_Actor
-    - title: Conversant
-      value: 2
-      type: 5
-      typeString: CustomFieldType_Actor
-    overrideSettings:
-      useOverrides: 0
-      overrideSubtitleSettings: 0
-      showNPCSubtitlesDuringLine: 1
-      showNPCSubtitlesWithResponses: 1
-      showPCSubtitlesDuringLine: 0
-      skipPCSubtitleAfterResponseMenu: 0
-      subtitleCharsPerSecond: 30
-      minSubtitleSeconds: 2
-      continueButton: 0
-      overrideSequenceSettings: 0
-      defaultSequence: 
-      defaultPlayerSequence: 
-      defaultResponseMenuSequence: 
-      overrideInputSettings: 0
-      alwaysForceResponseMenu: 1
-      includeInvalidEntries: 0
-      responseTimeout: 0
-    nodeColor: 
-    dialogueEntries:
-    - id: 0
-      fields:
-      - title: Title
-        value: START
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: None()
-        type: 0
-        typeString: 
-      conversationID: 3
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
       falseConditionAction: 
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 0
-        destinationConversationID: 3
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 300
-        y: 20
-        width: 160
-        height: 30
-    - id: 1
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Please choose an area you would like to revise for..
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 1
-        destinationConversationID: 3
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      - originConversationID: 3
-        originDialogueID: 1
-        destinationConversationID: 3
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      - originConversationID: 3
-        originDialogueID: 1
-        destinationConversationID: 3
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      - originConversationID: 3
-        originDialogueID: 1
-        destinationConversationID: 3
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 300
-        y: 70
-        width: 160
-        height: 30
-    - id: 2
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Introduction
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
@@ -15119,209 +15649,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 120
-        width: 160
-        height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Basic Functions
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 210
-        y: 120
-        width: 160
-        height: 30
-    - id: 4
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Loops
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 390
-        y: 120
-        width: 160
-        height: 30
-    - id: 5
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: Function Arguments
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 570
-        y: 120
+        x: 20
+        y: 30
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
