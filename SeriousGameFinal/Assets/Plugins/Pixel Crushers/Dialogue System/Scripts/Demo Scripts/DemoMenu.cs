@@ -19,9 +19,11 @@ namespace PixelCrushers.DialogueSystem.Demo
         public GUISkin guiSkin;
         public bool closeWhenQuestLogOpen = true;
 
+
         public UnityEvent onOpen = new UnityEvent();
         public UnityEvent onClose = new UnityEvent();
 
+        public GameObject character;
         private QuestLogWindow questLogWindow = null;
         private bool isMenuOpen = false;
         private Rect windowRect = new Rect(0, 0, 500, 500);
@@ -66,16 +68,7 @@ namespace PixelCrushers.DialogueSystem.Demo
                 if (closeWhenQuestLogOpen) SetMenuStatus(false);
                 OpenQuestLog();
             }
-            if (GUI.Button(new Rect(10, 100, windowRect.width - 20, 48), "Save Game"))
-            {
-                SetMenuStatus(false);
-                SaveGame();
-            }
-            if (GUI.Button(new Rect(10, 150, windowRect.width - 20, 48), "Load Game"))
-            {
-                SetMenuStatus(false);
-                LoadGame();
-            }
+
             if (GUI.Button(new Rect(10, 200, windowRect.width - 20, 48), "Return to Main Menu"))
             {
                 SetMenuStatus(false);
@@ -106,7 +99,7 @@ namespace PixelCrushers.DialogueSystem.Demo
             return (questLogWindow != null) && questLogWindow.isOpen;
         }
 
-        private void OpenQuestLog()
+        public void OpenQuestLog()
         {
             if ((questLogWindow != null) && !IsQuestLogOpen())
             {
@@ -171,9 +164,10 @@ namespace PixelCrushers.DialogueSystem.Demo
             }
         }
 
-
-        private void ClearSavedGame()
+        public void ClearSavedGame()
         {
+            Destroy(this.character);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene("MainMenu");
         }
 

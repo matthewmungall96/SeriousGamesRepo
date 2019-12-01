@@ -3,7 +3,7 @@
 // - No Glow Option
 // - Softness is applied on both side of the outline
 
-Shader "TextMeshPro/Mobile/Distance Field" {
+Shader "TextMeshPro/Mobile/Distance Field - Masking" {
 
 Properties {
 	_FaceColor			("Face Color", Color) = (1,1,1,1)
@@ -41,6 +41,11 @@ Properties {
 	_ClipRect			("Clip Rect", vector) = (-32767, -32767, 32767, 32767)
 	_MaskSoftnessX		("Mask SoftnessX", float) = 0
 	_MaskSoftnessY		("Mask SoftnessY", float) = 0
+	_MaskTex			("Mask Texture", 2D) = "white" {}
+	_MaskInverse		("Inverse", float) = 0
+	_MaskEdgeColor		("Edge Color", Color) = (1,1,1,1)
+	_MaskEdgeSoftness	("Edge Softness", Range(0, 1)) = 0.01
+	_MaskWipeControl	("Wipe Position", Range(0, 1)) = 0.5
 	
 	_StencilComp		("Stencil Comparison", Float) = 8
 	_Stencil			("Stencil ID", Float) = 0
@@ -87,6 +92,7 @@ SubShader {
 		#pragma multi_compile __ UNITY_UI_CLIP_RECT
 		#pragma multi_compile __ UNITY_UI_ALPHACLIP
 
+
 		#include "UnityCG.cginc"
 		#include "UnityUI.cginc"
 		#include "TMPro_Properties.cginc"
@@ -112,6 +118,10 @@ SubShader {
 		#endif
 		};
 
+		float _MaskWipeControl;
+		float _MaskEdgeSoftness;
+		fixed4 _MaskEdgeColor;
+		bool _MaskInverse;
 
 		pixel_t VertShader(vertex_t input)
 		{
@@ -139,9 +149,9 @@ SubShader {
 			float outline = _OutlineWidth * _ScaleRatioA * 0.5 * scale;
 
 			float opacity = input.color.a;
-		#if (UNDERLAY_ON | UNDERLAY_INNER)
-				opacity = 1.0;
-		#endif
+					#if (UNDERLAY_ON | UNDERLAY_INNER)
+					opacity = 1.0;
+					#endif
 
 			fixed4 faceColor = fixed4(input.color.rgb, opacity) * _FaceColor;
 			faceColor.rgb *= faceColor.a;
@@ -206,16 +216,22 @@ SubShader {
 		#endif
 
 		// Alternative implementation to UnityGet2DClipping with support for softness.
-		#if UNITY_UI_CLIP_RECT
+		#if UNITY_UI_CLIP_RECT	
 			half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(input.mask.xy)) * input.mask.zw);
 			c *= m.x * m.y;
 		#endif
+
+		float a = abs(_MaskInverse - tex2D(_MaskTex, input.texcoord0.zw).a);
+		float t = a + (1 - _MaskWipeControl) * _MaskEdgeSoftness - _MaskWipeControl;
+		a = saturate(t / _MaskEdgeSoftness);
+		c.rgb = lerp(_MaskEdgeColor.rgb*c.a, c.rgb, a);
+		c *= a;
 
 		#if (UNDERLAY_ON | UNDERLAY_INNER)
 			c *= input.texcoord1.z;
 		#endif
 
-		#if UNITY_UI_ALPHACLIP
+    #if UNITY_UI_ALPHACLIP
 			clip(c.a - 0.001);
 		#endif
 

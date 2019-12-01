@@ -3,7 +3,7 @@
 // - No Glow Option
 // - Softness is applied on both side of the outline
 
-Shader "TextMeshPro/Mobile/Distance Field" {
+Shader "TextMeshPro/Mobile/Distance Field Overlay" {
 
 Properties {
 	_FaceColor			("Face Color", Color) = (1,1,1,1)
@@ -52,9 +52,9 @@ Properties {
 }
 
 SubShader {
-	Tags 
-	{
-		"Queue"="Transparent"
+	Tags
+  {
+		"Queue"="Overlay"
 		"IgnoreProjector"="True"
 		"RenderType"="Transparent"
 	}
@@ -73,7 +73,7 @@ SubShader {
 	ZWrite Off
 	Lighting Off
 	Fog { Mode Off }
-	ZTest [unity_GUIZTestMode]
+	ZTest Always
 	Blend One OneMinusSrcAlpha
 	ColorMask [_ColorMask]
 
@@ -215,7 +215,7 @@ SubShader {
 			c *= input.texcoord1.z;
 		#endif
 
-		#if UNITY_UI_ALPHACLIP
+    #if UNITY_UI_ALPHACLIP
 			clip(c.a - 0.001);
 		#endif
 
