@@ -1091,7 +1091,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Interact with the Computer", "success")
+      userScript: 'SetQuestState("Interact with the Computer", "success");
+
+        SetQuestEntryState("Interact with the Computer", 1, "success")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1238,7 +1240,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -1261,7 +1263,7 @@ MonoBehaviour:
         destinationDialogueID: 157
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("HE110_W0R1D") == "success"
+      conditionsString: CurrentQuestEntryState("Basic Function", 3) == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1270,8 +1272,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 711.4286
-        y: 70
+        x: 924
+        y: 72
         width: 160
         height: 30
     - id: 3
@@ -1317,7 +1319,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -1340,7 +1342,7 @@ MonoBehaviour:
         destinationDialogueID: 158
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Basic Function") == "success"
+      conditionsString: CurrentQuestEntryState("Looper", 3) == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1349,8 +1351,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1225.7142
-        y: 70
+        x: 1728
+        y: 72
         width: 160
         height: 30
     - id: 4
@@ -1397,7 +1399,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -1420,7 +1422,7 @@ MonoBehaviour:
         destinationDialogueID: 159
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Looper") == "success"
+      conditionsString: CurrentQuestEntryState("Three Argument", 3) == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1429,8 +1431,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1740
-        y: 70
+        x: 1944
+        y: 72
         width: 160
         height: 30
     - id: 5
@@ -1478,7 +1480,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -1495,8 +1497,7 @@ MonoBehaviour:
         destinationDialogueID: 108
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Complete the "Final Test" Quiz") == "active"
-        and (CurrentQuestState("Three Argument") == "success")
+      conditionsString: CurrentQuestEntryState("Final Test", 3) == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3903,8 +3904,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Please enter "cout << functions[3];" below. Doing so will give the
-          robot some new functionality!
+        value: Please enter "functions[3];" below. Doing so will give the robot some
+          new functionality!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4010,7 +4011,7 @@ MonoBehaviour:
         destinationDialogueID: 41
         isConnector: 0
         priority: 2
-      conditionsString: Variable["BasicFunctionsPassword"] == "cout << functions[3];"
+      conditionsString: Variable["BasicFunctionsPassword"] == "functions[3];"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4083,7 +4084,7 @@ MonoBehaviour:
         destinationDialogueID: 38
         isConnector: 0
         priority: 2
-      conditionsString: Variable["BasicFunctionsPassword"] ~= "cout << functions[3];"
+      conditionsString: Variable["BasicFunctionsPassword"] ~= "functions[3];"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -6091,8 +6092,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Please type in "int i=0; do{cout << "i= " << i <<endl;}while(i < 10);"
-          below. This will update the robot to allow for looped movement!
+        value: Please type in "int i=0; do{"i=10"i endl;}" below. This will update
+          the robot to allow for looped movement!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -12277,7 +12278,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 162
+        destinationConversationID: 1
+        destinationDialogueID: 24
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -12287,8 +12294,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 840
-        y: 370
+        x: 816
+        y: 372
         width: 160
         height: 30
     - id: 163
@@ -13133,7 +13140,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -13500,7 +13507,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Cube Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 1
@@ -13818,8 +13825,7 @@ MonoBehaviour:
         destinationDialogueID: 67
         isConnector: 0
         priority: 2
-      conditionsString: Variable["LoopsPassword"] ~= "int i=0; do{cout << "i= " <<
-        i <<endl;}while(i < 10);"
+      conditionsString: Variable["LoopsPassword"] ~= "int i=0; do{"i=10"i endl;}"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -13892,8 +13898,7 @@ MonoBehaviour:
         destinationDialogueID: 185
         isConnector: 0
         priority: 2
-      conditionsString: Variable["LoopsPassword"] == "int i=0; do{cout << "i= " <<
-        i <<endl;}while(i < 10);"
+      conditionsString: Variable["LoopsPassword"] == "int i=0; do{"i=10"i endl;}"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -14274,8 +14279,8 @@ MonoBehaviour:
         y: 1370
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.35150018
+    canvasScrollPosition: {x: 127.659424, y: 10.271454}
+    canvasZoom: 0.6815001
   - id: 3
     fields:
     - title: Title
@@ -14817,7 +14822,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Camera(Book Shelf Angle,,1);
+        value: Camera(Introduction Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -14890,7 +14895,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Basic Function Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -14969,7 +14974,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Loops Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -15054,7 +15059,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Function Arguments Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -16667,8 +16672,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1100
-        y: 255
+        x: 1092
+        y: 252
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -17236,7 +17241,7 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Title
-      value: New Conversation 5
+      value: Robot
       type: 0
       typeString: 
     - title: Pictures
@@ -17391,7 +17396,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Robot Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 5
@@ -17430,6 +17435,12 @@ MonoBehaviour:
         originDialogueID: 1
         destinationConversationID: 5
         destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 1
+        destinationConversationID: 5
+        destinationDialogueID: 42
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17505,7 +17516,8 @@ MonoBehaviour:
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: (CurrentQuestEntryState("HE110_W0R1D", 3) == "active") or
+        (CurrentQuestEntryState("HE110_W0R1D", 3) == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17514,7 +17526,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
+        x: 165
         y: 120
         width: 160
         height: 30
@@ -17578,7 +17590,8 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: (CurrentQuestEntryState("Basic Function", 3) == "active")
+        or (CurrentQuestEntryState("Basic Function", 3) == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17587,7 +17600,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
+        x: 615
         y: 120
         width: 160
         height: 30
@@ -17651,7 +17664,8 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: (CurrentQuestEntryState("Looper", 3) == "active") or (CurrentQuestEntryState("Looper",
+        3) == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17660,7 +17674,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
+        x: 1065
         y: 120
         width: 160
         height: 30
@@ -17724,7 +17738,8 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: (CurrentQuestEntryState("Three Argument", 3) == "active")
+        or (CurrentQuestEntryState("Three Argument", 3) == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17733,7 +17748,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
+        x: 1515
         y: 120
         width: 160
         height: 30
@@ -17797,7 +17812,8 @@ MonoBehaviour:
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: (CurrentQuestEntryState("Final Test", 3) == "active") or (CurrentQuestEntryState("Final
+        Test", 3) == "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17806,7 +17822,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
+        x: 1965
         y: 120
         width: 160
         height: 30
@@ -17892,7 +17908,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 210
-        y: 170
+        y: 370
         width: 160
         height: 30
     - id: 8
@@ -17977,7 +17993,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 750
-        y: 170
+        y: 370
         width: 160
         height: 30
     - id: 9
@@ -18062,7 +18078,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1290
-        y: 170
+        y: 370
         width: 160
         height: 30
     - id: 10
@@ -18147,7 +18163,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1830
-        y: 170
+        y: 370
         width: 160
         height: 30
     - id: 11
@@ -18232,7 +18248,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 2370
-        y: 170
+        y: 370
         width: 160
         height: 30
     - id: 12
@@ -18643,7 +18659,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Goodbye,listener)
         type: 0
         typeString: 
       conversationID: 5
@@ -18749,7 +18765,7 @@ MonoBehaviour:
     - id: 19
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -18773,7 +18789,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: YMCA
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19698,7 +19714,7 @@ MonoBehaviour:
     - id: 32
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -19722,7 +19738,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19762,9 +19778,7 @@ MonoBehaviour:
 
         SetQuestState("Basic Function", "active");
 
-        SetQuestEntryState("Basic Function", 1, "active");
-
-        SetQuestEntryState("Basic Function", 1, "unassigned")'
+        SetQuestEntryState("Basic Function", 1, "active");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19779,7 +19793,7 @@ MonoBehaviour:
     - id: 33
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -19803,7 +19817,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19836,8 +19850,14 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
+      conditionsString: CurrentQuestEntryState("Basic Function", 3) == "active"
+      userScript: 'SetQuestState("Basic Function", "success");
+
+        SetQuestEntryState("Basic Function", 3, "success");
+
+        SetQuestState("Looper", "active");
+
+        SetQuestEntryState("Looper", 1, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19852,7 +19872,7 @@ MonoBehaviour:
     - id: 34
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -19876,7 +19896,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19909,8 +19929,14 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
+      conditionsString: CurrentQuestEntryState("Looper", 3) == "active"
+      userScript: 'SetQuestState("Looper", "success");
+
+        SetQuestEntryState("Looper", 3, "success");
+
+        SetQuestState("Three Argument", "active");
+
+        SetQuestEntryState("Three Argument", 1, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19925,7 +19951,7 @@ MonoBehaviour:
     - id: 35
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -19949,7 +19975,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19982,8 +20008,14 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
+      conditionsString: CurrentQuestEntryState("Three Argument", 3) == "active"
+      userScript: 'SetQuestState("Three Argument", "success");
+
+        SetQuestEntryState("Three Argument", 3, "success");
+
+        SetQuestState("Final Test", "active");
+
+        SetQuestEntryState("Final Test", 1, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19998,7 +20030,7 @@ MonoBehaviour:
     - id: 36
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20022,7 +20054,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20055,8 +20087,14 @@ MonoBehaviour:
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: 
+      conditionsString: CurrentQuestEntryState("Final Test", 3) == "active"
+      userScript: 'SetQuestState("Final Test", "success");
+
+        SetQuestEntryState("Final Test", 3, "success");
+
+        SetQuestState("End the Game", "active");
+
+        SetQuestEntryState("End the Game", 1, "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -20071,7 +20109,7 @@ MonoBehaviour:
     - id: 37
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20095,7 +20133,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20128,7 +20166,7 @@ MonoBehaviour:
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Three Argument", 3) == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -20144,7 +20182,7 @@ MonoBehaviour:
     - id: 38
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20168,7 +20206,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20201,7 +20239,7 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Looper", 3) == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -20217,7 +20255,7 @@ MonoBehaviour:
     - id: 39
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20241,7 +20279,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20274,7 +20312,7 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Basic Function", 3) == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -20290,7 +20328,7 @@ MonoBehaviour:
     - id: 40
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20314,7 +20352,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Return)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20363,7 +20401,7 @@ MonoBehaviour:
     - id: 41
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -20387,7 +20425,84 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: (Return)
+        type: 0
+        typeString: 
+      - title: Parenthetical
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 41
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestEntryState("Final Test", 3) == "success"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2505
+        y: 320
+        width: 160
+        height: 30
+    - id: 42
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Exit
         type: 0
         typeString: 
       - title: Parenthetical
@@ -20413,13 +20528,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 5
-        originDialogueID: 41
-        destinationConversationID: 5
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -20429,12 +20538,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2505
-        y: 320
+        x: 2415
+        y: 120
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.52000034
+    canvasZoom: 0.5800003
   syncInfo:
     syncActors: 0
     syncItems: 0

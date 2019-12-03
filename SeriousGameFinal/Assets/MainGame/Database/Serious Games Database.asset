@@ -1091,7 +1091,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Interact with the Computer", "success")
+      userScript: 'SetQuestState("Interact with the Computer", "success");
+
+        SetQuestEntryState("Interact with the Computer", 1, "success")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6090,7 +6092,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Please type in "int i=0; do{"i=10"i endl;}" below. This will update
+        value: Please type in "int i=0; do{'i=10'i endl;}" below. This will update
           the robot to allow for looped movement!
         type: 0
         typeString: 
@@ -13823,7 +13825,7 @@ MonoBehaviour:
         destinationDialogueID: 67
         isConnector: 0
         priority: 2
-      conditionsString: Variable["LoopsPassword"] ~= "int i=0; do{"i=10"i endl;}"
+      conditionsString: Variable["LoopsPassword"] ~= "int i=0; do{'i=10'i endl;}"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -13896,7 +13898,7 @@ MonoBehaviour:
         destinationDialogueID: 185
         isConnector: 0
         priority: 2
-      conditionsString: Variable["LoopsPassword"] == "int i=0; do{"i=10"i endl;}"
+      conditionsString: Variable["LoopsPassword"] == "int i=0; do{'i=10'i endl;}"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -14277,7 +14279,7 @@ MonoBehaviour:
         y: 1370
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1404.2552, y: 0}
+    canvasScrollPosition: {x: 127.659424, y: 10.271454}
     canvasZoom: 0.6815001
   - id: 3
     fields:
@@ -14390,8 +14392,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 20
-        y: 255
+        x: 840
+        y: 20
         width: 160
         height: 30
     - id: 1
@@ -14481,8 +14483,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1280
-        y: 255
+        x: 840
+        y: 84
         width: 160
         height: 30
     - id: 2
@@ -14554,8 +14556,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 67.5
+        x: 165
+        y: 120
         width: 160
         height: 30
     - id: 3
@@ -14627,8 +14629,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 192.5
+        x: 615
+        y: 120
         width: 160
         height: 30
     - id: 4
@@ -14700,8 +14702,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 317.5
+        x: 1065
+        y: 120
         width: 160
         height: 30
     - id: 5
@@ -14773,8 +14775,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 380
-        y: 442.5
+        x: 1515
+        y: 120
         width: 160
         height: 30
     - id: 6
@@ -14820,7 +14822,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Camera(Book Shelf Angle,,1);
+        value: Camera(Introduction Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -14846,8 +14848,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 560
-        y: 67.5
+        x: 165
+        y: 170
         width: 160
         height: 30
     - id: 7
@@ -14893,7 +14895,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Basic Function Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -14925,8 +14927,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 560
-        y: 192.5
+        x: 615
+        y: 170
         width: 160
         height: 30
     - id: 8
@@ -14972,7 +14974,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Loops Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -15010,8 +15012,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 560
-        y: 317.5
+        x: 1065
+        y: 170
         width: 160
         height: 30
     - id: 9
@@ -15057,7 +15059,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Function Arguments Camera,,1);
         type: 0
         typeString: 
       conversationID: 3
@@ -15101,8 +15103,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 560
-        y: 442.5
+        x: 1515
+        y: 170
         width: 160
         height: 30
     - id: 10
@@ -15174,8 +15176,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 30
+        x: 30
+        y: 220
         width: 160
         height: 30
     - id: 11
@@ -15247,8 +15249,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 80
+        x: 210
+        y: 220
         width: 160
         height: 30
     - id: 12
@@ -15320,8 +15322,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 180
+        x: 570
+        y: 220
         width: 160
         height: 30
     - id: 13
@@ -15393,8 +15395,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 330
+        x: 1110
+        y: 220
         width: 160
         height: 30
     - id: 14
@@ -15469,8 +15471,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 30
+        x: 30
+        y: 270
         width: 160
         height: 30
     - id: 15
@@ -15542,8 +15544,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 130
+        x: 390
+        y: 220
         width: 160
         height: 30
     - id: 16
@@ -15617,8 +15619,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 80
+        x: 210
+        y: 270
         width: 160
         height: 30
     - id: 17
@@ -15695,8 +15697,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 130
+        x: 390
+        y: 270
         width: 160
         height: 30
     - id: 18
@@ -15768,8 +15770,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 230
+        x: 750
+        y: 220
         width: 160
         height: 30
     - id: 19
@@ -15841,8 +15843,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 280
+        x: 930
+        y: 220
         width: 160
         height: 30
     - id: 20
@@ -15919,8 +15921,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 180
+        x: 570
+        y: 270
         width: 160
         height: 30
     - id: 21
@@ -15998,8 +16000,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 230
+        x: 750
+        y: 270
         width: 160
         height: 30
     - id: 22
@@ -16072,8 +16074,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 280
+        x: 930
+        y: 270
         width: 160
         height: 30
     - id: 23
@@ -16147,8 +16149,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 330
+        x: 1110
+        y: 270
         width: 160
         height: 30
     - id: 24
@@ -16220,8 +16222,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 380
+        x: 1290
+        y: 220
         width: 160
         height: 30
     - id: 25
@@ -16293,8 +16295,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 430
+        x: 1470
+        y: 220
         width: 160
         height: 30
     - id: 26
@@ -16366,8 +16368,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 480
+        x: 1650
+        y: 220
         width: 160
         height: 30
     - id: 28
@@ -16442,8 +16444,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 380
+        x: 1290
+        y: 270
         width: 160
         height: 30
     - id: 29
@@ -16519,8 +16521,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 430
+        x: 1470
+        y: 270
         width: 160
         height: 30
     - id: 30
@@ -16597,8 +16599,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 480
+        x: 1650
+        y: 270
         width: 160
         height: 30
     - id: 31
@@ -16670,8 +16672,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1100
-        y: 255
+        x: 840
+        y: 320
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
@@ -17347,8 +17349,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 20
+        x: 20
+        y: 380
         width: 160
         height: 30
     - id: 1
@@ -17394,7 +17396,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Robot Camera Angle,,1)
         type: 0
         typeString: 
       conversationID: 5
@@ -17435,6 +17437,12 @@ MonoBehaviour:
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
+      - originConversationID: 5
+        originDialogueID: 1
+        destinationConversationID: 5
+        destinationDialogueID: 42
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -17444,8 +17452,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 70
+        x: 200
+        y: 380
         width: 160
         height: 30
     - id: 2
@@ -17518,8 +17526,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 120
+        x: 380
+        y: 67.5
         width: 160
         height: 30
     - id: 3
@@ -17592,8 +17600,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 120
+        x: 380
+        y: 192.5
         width: 160
         height: 30
     - id: 4
@@ -17666,8 +17674,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 120
+        x: 380
+        y: 317.5
         width: 160
         height: 30
     - id: 5
@@ -17740,8 +17748,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
-        y: 120
+        x: 380
+        y: 442.5
         width: 160
         height: 30
     - id: 6
@@ -17814,8 +17822,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
-        y: 120
+        x: 380
+        y: 567.5
         width: 160
         height: 30
     - id: 7
@@ -17899,8 +17907,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 170
+        x: 1280
+        y: 80
         width: 160
         height: 30
     - id: 8
@@ -17984,8 +17992,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 170
+        x: 1280
+        y: 230
         width: 160
         height: 30
     - id: 9
@@ -18069,8 +18077,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 170
+        x: 1280
+        y: 380
         width: 160
         height: 30
     - id: 10
@@ -18154,8 +18162,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
-        y: 170
+        x: 1280
+        y: 530
         width: 160
         height: 30
     - id: 11
@@ -18239,8 +18247,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
-        y: 170
+        x: 1280
+        y: 680
         width: 160
         height: 30
     - id: 12
@@ -18312,8 +18320,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 220
+        x: 740
+        y: 30
         width: 160
         height: 30
     - id: 13
@@ -18385,8 +18393,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 220
+        x: 740
+        y: 180
         width: 160
         height: 30
     - id: 14
@@ -18458,8 +18466,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1110
-        y: 220
+        x: 740
+        y: 330
         width: 160
         height: 30
     - id: 15
@@ -18531,8 +18539,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1650
-        y: 220
+        x: 740
+        y: 480
         width: 160
         height: 30
     - id: 16
@@ -18604,8 +18612,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2190
-        y: 220
+        x: 740
+        y: 630
         width: 160
         height: 30
     - id: 17
@@ -18651,7 +18659,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Audio(Goodbye,listener)
         type: 0
         typeString: 
       conversationID: 5
@@ -18677,8 +18685,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 220
+        x: 740
+        y: 80
         width: 160
         height: 30
     - id: 18
@@ -18750,8 +18758,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 220
+        x: 740
+        y: 230
         width: 160
         height: 30
     - id: 19
@@ -18797,7 +18805,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AnimatorPlay(Ymca Dance, Robot Kyle)
         type: 0
         typeString: 
       conversationID: 5
@@ -18823,8 +18831,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 220
+        x: 740
+        y: 380
         width: 160
         height: 30
     - id: 20
@@ -18896,8 +18904,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
-        y: 220
+        x: 740
+        y: 530
         width: 160
         height: 30
     - id: 21
@@ -18969,8 +18977,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
-        y: 220
+        x: 740
+        y: 680
         width: 160
         height: 30
     - id: 22
@@ -19036,8 +19044,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 220
+        x: 740
+        y: 130
         width: 160
         height: 30
     - id: 23
@@ -19103,8 +19111,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 930
-        y: 220
+        x: 740
+        y: 280
         width: 160
         height: 30
     - id: 24
@@ -19170,8 +19178,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1470
-        y: 220
+        x: 740
+        y: 430
         width: 160
         height: 30
     - id: 25
@@ -19237,8 +19245,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2010
-        y: 220
+        x: 740
+        y: 580
         width: 160
         height: 30
     - id: 26
@@ -19304,8 +19312,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2550
-        y: 220
+        x: 740
+        y: 730
         width: 160
         height: 30
     - id: 27
@@ -19383,8 +19391,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 270
+        x: 920
+        y: 80
         width: 160
         height: 30
     - id: 28
@@ -19462,8 +19470,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 270
+        x: 920
+        y: 230
         width: 160
         height: 30
     - id: 29
@@ -19541,8 +19549,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1290
-        y: 270
+        x: 920
+        y: 380
         width: 160
         height: 30
     - id: 30
@@ -19620,8 +19628,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1830
-        y: 270
+        x: 920
+        y: 530
         width: 160
         height: 30
     - id: 31
@@ -19699,8 +19707,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370
-        y: 270
+        x: 920
+        y: 680
         width: 160
         height: 30
     - id: 32
@@ -19778,8 +19786,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 72
-        y: 324
+        x: 1100
+        y: 42.5
         width: 160
         height: 30
     - id: 33
@@ -19857,8 +19865,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 600
-        y: 324
+        x: 1100
+        y: 192.5
         width: 160
         height: 30
     - id: 34
@@ -19936,8 +19944,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1155
-        y: 320
+        x: 1100
+        y: 342.5
         width: 160
         height: 30
     - id: 35
@@ -20015,8 +20023,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1596
-        y: 312
+        x: 1100
+        y: 492.5
         width: 160
         height: 30
     - id: 36
@@ -20094,8 +20102,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2235
-        y: 320
+        x: 1100
+        y: 642.5
         width: 160
         height: 30
     - id: 37
@@ -20167,8 +20175,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1965
-        y: 320
+        x: 1100
+        y: 567.5
         width: 160
         height: 30
     - id: 38
@@ -20240,8 +20248,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1425
-        y: 320
+        x: 1100
+        y: 417.5
         width: 160
         height: 30
     - id: 39
@@ -20313,8 +20321,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 864
-        y: 324
+        x: 1100
+        y: 267.5
         width: 160
         height: 30
     - id: 40
@@ -20386,8 +20394,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 320
+        x: 1100
+        y: 117.5
         width: 160
         height: 30
     - id: 41
@@ -20463,12 +20471,79 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2505
-        y: 320
+        x: 1100
+        y: 717.5
+        width: 160
+        height: 30
+    - id: 42
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Exit
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 380
+        y: 692.5
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.46000034
+    canvasZoom: 0.5800003
   syncInfo:
     syncActors: 0
     syncItems: 0
