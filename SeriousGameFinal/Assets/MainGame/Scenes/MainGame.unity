@@ -1003,7 +1003,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1441674160}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   OnPlayerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1441674160}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1070,6 +1070,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1528150048}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -1081,7 +1092,7 @@ MonoBehaviour:
   OnPlayerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1441674160}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1091,6 +1102,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1528150048}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -5337,7 +5359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111911113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -95, y: 0, z: -80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5660,12 +5682,37 @@ PrefabInstance:
     - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 612
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 603
+      value: 266
+      objectReference: {fileID: 0}
+    - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 492343565351270841, guid: 67bbe98d30fd46b4b9f4983b337c3c46,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1133.476
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67bbe98d30fd46b4b9f4983b337c3c46, type: 3}
@@ -7285,7 +7332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528150047}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000045776367, y: 0, z: -0.000030517578}
+  m_LocalPosition: {x: -0.000045776367, y: 3.67, z: -0.000030517578}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
