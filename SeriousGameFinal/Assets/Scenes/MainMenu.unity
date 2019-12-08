@@ -534,7 +534,7 @@ MonoBehaviour:
 
     Interact with Object - E Key
 
-    Bring up Pause Menu - Esc Key'
+    Bring up Pause Menu - P Key'
 --- !u!222 &1225470205
 CanvasRenderer:
   m_ObjectHideFlags: 0

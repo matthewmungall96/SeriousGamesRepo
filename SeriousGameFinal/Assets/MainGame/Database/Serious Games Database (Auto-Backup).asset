@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Serious Games Database (Auto-Backup)
+  m_Name: Serious Games Database
   m_EditorClassIdentifier: 
   version: Serious_Games_V1.10
   author: Matthew Mungall, Leo Masnada, Scott McKay
@@ -156,8 +156,9 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: I must really get started on working with my new RoboCorp robot. Maybe
-        I should get started with the computer?
+      value: 'Introduction:
+
+        find the computer in the room'
       type: 0
       typeString: 
     - title: Success Description
@@ -14322,8 +14323,8 @@ MonoBehaviour:
         y: 755
         width: 160
         height: 30
-    canvasScrollPosition: {x: 140.86572, y: 8.804077}
-    canvasZoom: 0.6815002
+    canvasScrollPosition: {x: 0, y: 1.7809448}
+    canvasZoom: 0.56150025
   - id: 3
     fields:
     - title: Title
@@ -16838,8 +16839,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 20
+        x: 20
+        y: 80
         width: 160
         height: 30
     - id: 2
@@ -16869,7 +16870,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Would you like to leave the garage? (Doing so will end the game)
+        value: 'Would you like to leave the garage? '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -16885,7 +16886,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Camera(Garage Door Angle,,1)
         type: 0
         typeString: 
       conversationID: 4
@@ -16908,7 +16909,7 @@ MonoBehaviour:
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("End the Game", 1) == "active"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -16917,8 +16918,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 70
+        x: 200
+        y: 42.5
         width: 160
         height: 30
     - id: 3
@@ -16948,7 +16949,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yes
+        value: Yes (Open Garage Door)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -16964,7 +16965,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: AnimatorPlay(GarageDoorOpening,Plane (3));
+        value: 'AnimatorPlay(GarageDoorOpening,Plane (3));
+
+          Camera(Garage Door,,1)'
         type: 0
         typeString: 
       conversationID: 4
@@ -16982,7 +16985,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestEntryState("End the Game", 2, "active");
+
+        SetQuestEntryState("End the Game", 1, "success")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -16990,8 +16995,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 120
+        x: 380
+        y: 30
         width: 160
         height: 30
     - id: 4
@@ -17057,8 +17062,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 120
+        x: 380
+        y: 80
         width: 160
         height: 30
     - id: 5
@@ -17088,7 +17093,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Very well, thank you for playing our game!
+        value: '......'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -17130,14 +17135,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 170
+        x: 560
+        y: 80
         width: 160
         height: 30
     - id: 6
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -17149,7 +17154,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -17161,7 +17166,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: (Exit)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -17208,14 +17213,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 220
+        x: 740
+        y: 80
         width: 160
         height: 30
     - id: 7
       fields:
       - title: Title
-        value: New Dialogue Entry
+        value: 
         type: 0
         typeString: 
       - title: Pictures
@@ -17239,7 +17244,80 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: (Continue with the game before accessing this component)
+        type: 0
+        typeString: 
+      - title: Parenthetical
         value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Camera(Garage Control Angle,,1)
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 7
+        destinationConversationID: 4
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestEntryState("End the Game", 1) == "unassigned"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 200
+        y: 117.5
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: (Exit)
         type: 0
         typeString: 
       - title: Parenthetical
@@ -17266,7 +17344,7 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: CurrentQuestState("End the Game") == "unassigned"
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -17275,12 +17353,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 372
-        y: 60
+        x: 380
+        y: 130
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.9100001
   - id: 5
     fields:
     - title: Title
@@ -17823,7 +17901,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wander
+        value: Upload
         type: 0
         typeString: 
       - title: Parenthetical
@@ -18243,7 +18321,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Choose a wander speed:'
+        value: 'Confirm choice:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -18274,12 +18352,6 @@ MonoBehaviour:
         originDialogueID: 11
         destinationConversationID: 5
         destinationDialogueID: 16
-        isConnector: 0
-        priority: 2
-      - originConversationID: 5
-        originDialogueID: 11
-        destinationConversationID: 5
-        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       - originConversationID: 5
@@ -18630,7 +18702,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Fast:'
+        value: 'Upload:'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -18672,8 +18744,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 740
-        y: 680
+        x: 696
+        y: 720
         width: 160
         height: 30
     - id: 17
@@ -18987,79 +19059,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 744
         y: 528
-        width: 160
-        height: 30
-    - id: 21
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 5
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 'Slow:'
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 5
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 5
-        originDialogueID: 21
-        destinationConversationID: 5
-        destinationDialogueID: 31
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 740
-        y: 730
         width: 160
         height: 30
     - id: 22
@@ -19740,7 +19739,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '....'
+        value: Your robot has successfully uploaded the information to the online
+          database.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -19788,8 +19788,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 920
-        y: 725
+        x: 912
+        y: 720
         width: 160
         height: 30
     - id: 32
@@ -21163,8 +21163,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wow, you did really good! Nearly flawless actually! You scored [var=Questions
-          Wrong]! Keep revising and you'll do fine!
+        value: Wow, you did really good! Nearly flawless actually! You got [var=Questions
+          Wrong] failed questions! Keep revising and you'll do fine!
         type: 0
         typeString: 
       - title: Parenthetical
@@ -21206,8 +21206,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 270
+        x: 36
+        y: 276
         width: 160
         height: 30
     - id: 6
@@ -21237,8 +21237,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Wow, you did pretty good! You scored [var=Questions Wrong]! I'd reccomend
-          going over the books a while longer to help get your score up in future.
+        value: Wow, you did pretty good! You scored [var=Questions Wrong] failed questions!
+          I'd reccomend going over the books a while longer to help get your score
+          up in future.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -21311,8 +21312,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Oh dear, that's not good at all. You scored [var=Questions Wrong]!
-          Revision is a requirement if you're wanting to get your grades up.
+        value: Oh dear, that's not good at all. You scored [var=Questions Wrong] failed
+          questions! Revision is a requirement if you're wanting to get your grades
+          up.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -21385,8 +21387,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I'm speechless. You scored [var=Questions Wrong]! I would possibly
-          look at changing your career path if you're scoring so low at a basic level.
+        value: I'm speechless. You scored [var=Questions Wrong] failed questions!
+          I would possibly look at changing your career path if you're scoring so
+          low at a basic level.
         type: 0
         typeString: 
       - title: Parenthetical
