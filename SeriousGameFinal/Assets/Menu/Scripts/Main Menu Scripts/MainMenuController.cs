@@ -152,6 +152,11 @@ public class MainMenuController : MonoBehaviour
 
     }
 
+    public void return_main_menu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void Quit()
     {
         Application.Quit();

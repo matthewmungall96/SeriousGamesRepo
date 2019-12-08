@@ -6,13 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu/Scenes/MainMenu.unity
-    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0dc73359e03474d4991f523c8fa9dba3
   - enabled: 1
-    path: Assets/MainGame/Scenes/MainGame.unity
-    guid: 476cbac7cb3f63b419377d54ffc6a966
+    path: Assets/Scenes/Intro.unity
+    guid: be4812f9b8487bc47ad975be3a077abf
   - enabled: 1
-    path: Assets/Pixel Crushers/Dialogue System/Third Party Support/Invector Support/Example/Dialogue
-      System Invector Locomotion.unity
-    guid: 170e285561a895148a73c6701de45de9
+    path: Assets/Scenes/MainGame.unity
+    guid: a53571f7fdd82804ea5df6ffba1d9190
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: dfbff9b2983223741bfc08547f51633d
   m_configObjects: {}
